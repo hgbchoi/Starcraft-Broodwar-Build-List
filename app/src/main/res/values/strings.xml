@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Starcraft: BroodWar Build List</string>
+    <string name="race_protess">Protoss</string>
+    <string name="race_terran">Terran</string>
+    <string name="race_zerg">Zerg</string>
+    <string name ="favorite">Favorite Builds</string>
+    <string name="PvZ">P v Z</string>
+    <string name="PvP">P v P</string>
+    <string name="PvT">P v T</string>
+    <string name="TvP">T v P</string>
+    <string name="TvZ">T v Z</string>
+    <string name="TvT">T v T</string>
+    <string name="ZvZ">Z v Z</string>
+    <string name="ZvP">Z v P</string>
+    <string name="ZvT">Z v T</string>
+    <string name="Difficulty">Difficulty</string>
+    <string name="BuildName">Build Name</string>
+    <string name = "HintTextBuildOrder">Example:\n8 -> Pylon\n10 -> Gateway</string>
+    <string name = "HintTextBuildNotes">Any additional tips\nfor using the build</string>
+    <string name = "HIntTextBuildName">Enter build name here</string>
+    <string name="BuildOrder">Build Order:</string>
+    <string name="BuildNotes">Additional Comments:</string>
+    <string name="BuildListToolbarTitle">Build List</string>
+    <string name="MainActivityTitle">Select Your Race</string>
+    <string name="OpponentRaceSelection">Select Opponent Race</string>
+    <string name="BuildNameCreateBuild">Build Name: </string>
+    <string name="YourRace">Your Race:</string>
+    <string name="OpponentRace">Opponent\'s Race:</string>
+    <string name="CreateBuild">Create Build</string>
+
+    <string name="TwoBarracksAcademy_BuildName">2 Barrack Academy</string>
+    <string name="TwoBarracksAcademy_Race">T v Z</string>
+    <string name="TwoBarracksAcademy_BuildOrder">8.5 -> Supply Depot\n10.5 -> Barracks\n12.5 -> Barracks\n14 -> Supply Depot\n18 -> Refinery, SCV Stop\n20 -> Academy\nAfter Academy -> 2 Medic, Stimpack, 2 Firebat\nRUSH\nEngineering Bay\nBio Attack Upgrade</string>
+    <string name="TwoBarracksAcademy_BuildNotes">After the rush, there are two choices. If you want to play a longer game, you can expand while going for the rush.\n\nIf you want to try to end the game, add an additional barracks and keep unit production.</string>
+
+    <string name="ThreeDragoonDoubleNexus_BuildName">3 Dragoon Double Nexus</string>
+    <string name="ThreeDragoonDoubleNexus_BuildRace">P v T</string>
+    <string name="ThreeDragoonDoubleNexus_BuildOrder">8 -> Pylon\n10 -> Gateway\n11 -> Gas\n13 -> Cybernetics Core\n15 -> Pylon\n16 -> Dragoon\n20 -> Dragoon Range\n21 -> Dragoon\n24 -> Pylon\n26 -> Dragoon\n28 -> Nexus At Natural\n29 -> Probe, Robotics Facility, Dragoon</string>
+    <string name="ThreeDragoonDoubleNexus_BuildNotes">After completing this build order, if you think the Terran is doing a 2 Factory early push, you should immediately build 2 more Gateways to counter this. Search timing should be around after you build the second Pylon.</string>
+
+    <string name="TwoGateRobotics_BuildName">Two Gateways Robotics</string>
+    <string name="TwoGateRobotics_BuildRace">P v P</string>
+    <string name="TwoGateRobotics_BuildOrder">8 -> Pylon\n10 -> Gateway\n12 -> Assimilator\n13 -> Gateway, Zealot\n15 -> Pylon\n17 -> Cyborantics Core\n19 -> Zealot\n21 -> Pylon\n22 -> Dragoon\n24 -> Dragoon Range\n25 -> Dragoon\n27 -> Robotics Facility, Additional Gateway</string>
+    <string name="TwoGateRobotics_BuildNotes">This is probably one of the safest builds out there. It can stop almost any early game pressure such as DT or Reaver rush. However, this is not a very offensive build and thus you may be off to a bad start against opponents that go for an early Nexus.</string>
+
+
+
+    <string name="DarkTemplarExpand_BuildName">Dark Templar Double Nexus</string>
+    <string name="DarkTemplarExpand_BuildRace">P v P</string>
+    <string name="DarkTemplarExpand_BuildOrder">8 -> Pylon\n10 -> Gateway\n11 -> Assimilator\n13 -> Cyborantics Core\n14 -> Zealot\n16 -> Pylon\n17 -> Citadel of Adun\n18 -> Dragoon\n21 -> Gateway, Templar Archive\n22 -> Pylon\n24 -> Dark Templar x 2\n29 -> Pylon at Natural Expansion\n30 -> Forge\After sending the DTs, Nexus at expo + Cannons if needed</string>
+    <string name="DarkTemplarExpand_BuildNotes">With this build, it is possible to kill opponents that do not have detection. If the opponent does have detection, build the Nexus at natural, hide the Dark Templar and defend with cannons and High Templars.</string>
+
+
+    <string name="WalkingReaver_BuildName">Reaver Expand</string>
+    <string name="WalkingReaver_BuildRace">P v P</string>
+    <string name="WalkingReaver_BuildOrder">8 -> Pylon\n10 -> Gateway\n11 -> Gas\n13 -> Zealot\n15 -> Pylon\n17 -> Cybernetics Core\n18 -> Zealot\n22 -> Pylon, Dragoon\n25 -> Dragoon Range\n26 -> Dragoon\n30 -> Robotics Facility\n -> Continue Probe/Dragoon Production ->\nObservatory, Pylon, Robotics Support Bay, Pylon\nAfter 5 Dragoons, 1 Reaver\n~46 -> Nexus </string>
+    <string name="WalkingReaver_BuildNotes">Safe build, should be able to defend against anything, however it is not possible toput any kind of early pressure on the opponent since you are not getting a Shuttle to transport your Reaver. If your opponents expands quicker than you, you will be at a slight disadvantage but the game should be winnable with some harassment with Shuttle+Reaver, potentially Shuttle speed upgrade.</string>
+
+
+    <string name="TwoFactory_BuildName">2 Factory Push</string>
+    <string name="TwoFactory_BuildRace">T v P</string>
+    <string name="TwoFactory_BuildOrder">9 -> Supply Depot\n12 -> Barracks, Refinery\n14 -> Supply Depot, Scout\n16 -> Factory, Marine\n19 ~ 20 -> Factory\n21 -> Supply Depot\n100% Factory -> Factory Addon\n100% Factory Addon -> Tank, Vulture Speed, 2nd Factory Addon\n100% 2nd Factory Addon -> Mine Upgrade\Continue Vulture/Tank Production\n%90 Mine Upgrade -> Rush with 2 SCVs and units</string>
+    <string name="TwoFactory_BuildNotes">Block your entrance with Barracks/Supply Depot if you can, this build works a lot better as a surprise. This build is decent against any 1 Gateway Double Nexus build from Protoss. You may be able to do significant damage or end the game. If your rush gets blocked, build a Command Center at natural expansion and defend. Weak against early Dark Templars.</string>
+
+    <string name="FD_BuildName">Fake Double (FD)</string>
+    <string name="FD_BuildRace">T v P</string>
+    <string name="FD_BuildOrder">9 -> Supply Depot\n11 -> Barracks, Refinery\n13 -> SCV Scout\n15 -> Start Marine Production\n16 ->Factory, Supply Depot\nFactory Addon -> Vulture Mine Upgrade -> Tank Production -> 6 Marine 1 Tank rush while producing Vulture</string>
+    <string name="FD_BuildNotes">The goal of this build should be to put early game pressure on the enemy Protoss. When playing in Fighting Spirit, Your 6 Marines and 1 Tank should be out of your entrance by 4:30 game time. Micro intensive build.</string>
+
+
+    <string name="FirstEngineeringBay_BuildName">Fast Engineering Bay Expo</string>
+    <string name="FirstEngineeringBay_BuildRace">T v Z</string>
+    <string name="FirstEngineeringBay_BuildOrder">9 -> Supply Depot\n11 -> Barracks\n12 -> SCV Scout\n14 -> Supply Depot\n19 -> Command Center at Expo\n21 -> Refinery\n23 -> Engineering Bay\n25 -> Supply Depot\n29 -> Bionic Weapons Upgrade\n30 -> Academy\n35 -> Barracks x 2\n39 -> Barracks\n40 -> Supply Deopt\n41 -> Stim Pack\n 42 -> 5th Barracks</string>
+    <string name="FirstEngineeringBay_BuildNotes">This build is strong early to mid game because of its fast upgrade timings and expansion. You probably want to start building your factory and more tech at around ~65 supply. When all of the Zerg mutas have been killed off and you have a decent amount of bionic units, this is when you want to transition in to full mechanic (Tanks, Vultures, Goliaths, Vessles) </string>
+
+
+    <string name="Overpool_BuildName">Overlord Spawning Pool</string>
+    <string name="Overpool_BuildRace">Z v P</string>
+    <string name="Overpool_BuildOrder">9 -> Overlord, Spawning Pool\n3 Drones\n11 -> Hatchery at Expo</string>
+    <string name="Overpool_BuildNotes"></string>
+
+    <string name="T1Double_BuildName">T1 Double Nexus</string>
+    <string name="T1Double_BuildRace">P v T</string>
+    <string name="T1Double_BuildOrder">8 -> Pylon\n10 -> Gateway\n11 -> Assimilator\n13 -> Cybernatics Core\n15 -> Pylon\n17 -> Dragoon Range, Dragoon\n21 -> Stop Probe Production, Nexus\n21 -> Dragoon, Gateway\n23 -> Pylon, Resume Probe Production\n25 -> Dragoon x 2\n31 -> Robotics Facility</string>
+    <string name="T1Double_BuildNotes">This build is decent against any type of FD rush or early two factory timings due to fast production of dragoons from 2 Gateways, as well as being able to expand very early. However, there is nothing you can do about the Terran scouting your early expansion and thus they can immediately play a more macro oriented game without having to build an academy or an engineering bay to defend against Reavers or Dark Templars early on.</string>
+
+    <string name="Fifteen2Gateway_BuildName">15 Two Gateway</string>
+    <string name="Fifteen2Gateway_BuildRace">P v T</string>
+    <string name="Fifteen2Gateway_BuildOrder">8 -> Pylon\n10 -> Gateway\n11 -> Assimilator\n13 -> Cybernatics Core\n15 -> Gateway, Stop Probe Production\n15 -> Dragoon Range, Dragoon\n17 -> Pylon\nContinue Dragoon, Probe production</string>
+    <string name="Fifteen2Gateway_BuildNotes">This build kills any type of early game pressure from the Terran due to a high number of dragoons early game, however, you NEED to do some kind of damage to the Terran early on since your expansion is going to be very slow. This build is good to use in combination of a proxy (Hidden, somewhere near opponent base) Robotics Facility Shuttle, Reaver.</string>
+
+</resources>
