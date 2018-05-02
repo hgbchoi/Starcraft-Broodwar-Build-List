@@ -173,7 +173,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.myView
                 case (R.id.mRaceVSText):
                     Intent j = new Intent(context, BuildListActivity.class);
                     j.putExtra("RaceVsChosen", mRaceVSList.get(getAdapterPosition()));
-                    Toast.makeText(context, mRaceVSList.get(getAdapterPosition()) + " clicked", Toast.LENGTH_LONG).show();
                     view.getContext().startActivity(j);
                     break;
                 case (R.id.mListContextMenuIcon):

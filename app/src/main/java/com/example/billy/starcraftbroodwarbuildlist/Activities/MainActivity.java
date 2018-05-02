@@ -106,11 +106,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
         mList.get(0).NameID = R.string.race_protess;
-        mList.get(0).LogoID = R.drawable.ic_vector_protoss_logo;
+        mList.get(0).LogoID = R.drawable.ic_protoss;
         mList.get(1).NameID = R.string.race_terran;
-        mList.get(1).LogoID = R.drawable.ic_vector_terran_logo;
+        mList.get(1).LogoID = R.drawable.ic_terran;
         mList.get(2).NameID = R.string.race_zerg;
-        mList.get(2).LogoID = R.drawable.ic_vector_zerg_logo;
+        mList.get(2).LogoID = R.drawable.ic_zerg;
         mList.get(3).NameID = R.string.favorite;
         mList.get(3).LogoID = R.drawable.ic_grade_black_24dp_opaque;
         mList.get(4).NameID = R.string.CreateBuild;

@@ -43,6 +43,29 @@ public class BuildData {
     public Builds FactoryDouble;
     public Builds OneOneOne;
     public Builds FiveBarrack;
+    public Builds FactoryDoubleTvT;
+    public Builds BarrackDoubleTvT;
+    public Builds BBSTvT;
+    public Builds TwoStarWraith;
+    public Builds TvTNotes;
+    public Builds TwelveHatchery;
+    public Builds NineDrone;
+    public Builds OverpoolvZ;
+    public Builds FastGas;
+    public Builds TwelvePool;
+    public Builds TwelveHatcheryvZ;
+    public Builds ZvZTips;
+    Builds NineDroneSpeedvP;
+    Builds NineSevenThree;
+    Builds NineDronevT;
+    Builds NineDroneSpeed;
+    Builds OverpoolvT;
+    Builds TwelveHatchvT;
+    Builds NoSpawning3Hatch;
+    Builds TwoHatchMuta;
+    Builds TwoHatchLurker;
+    Builds ThreeHatch;
+    Builds TwoHatcheryHydra;
 
     private String STANDARD_TOSS_OPENING = "8 -> Pylon\n" +
             "10 -> Gateway\n" +
@@ -146,26 +169,80 @@ public class BuildData {
         myBuildList.add(OneFactoryStarport);
 
         //T v T
-
-
+        BarrackDoubleTvT = new Builds("Barrack Double (TvT)", "T v T", "9 -> Supply Depot\n12 -> Barracks, Gas\n15 -> Supply Depot\n16 -> Marine\n17 -> Factory\n21 -> Command Center\n100% Factory -> Vulture -> Addon\n26 -> Factory\n100% Addon -> Tank\nArmory, Academy, Scan\n3rd Factory\nCommand Center","Standard opener in T v T which can stop most early game aggression from your opponent (except for BBS). In mid game, you want to continue expanding your territory while keeping your upgrades up and building up your Dropship count (essential in T v T).");
+        FactoryDoubleTvT = new Builds("Factory Double (TvT)","T v T","\"9 -> Supply Depot\\n12 -> Barracks\\n12 -> Gas\\n15 -> Supply Depot\\n16 -> Factory\\nCommand Center inside your base\\n100% -> Command Center, fly it over to your natural. Use your Barracks to tighten your entrance\"","The build order is the exact same as the Factory Double build used in T v P. This is a little safer in early game since it can also handle BBS with some micro. However, this build loses to the One Barrack Double build.");
+        BBSTvT = new Builds("BBS (TvT)", "T v T", "6.5 -> Send SCV to Center of the map\n8 -> Sen SCV to Center of the map\nStop SCV production\n8 -> Barracks x 2 with the 2 SCVs in Center, 1 SCV\n9 -> Supply Depot\n100% Barracks -> Marines", "Same build as T v P BBS. Early game all in with no turning back.");
+        TvTNotes = new Builds("General Information (T v T)","T v T","The reason the build choices are a bit limited in T v T is because there is no real counter to Barracks Double or Factory Double in this match up. Builds such as Two Factory push or 2 Starport have been excluded from the current trends for this reason.","Weapon level 2 upgrade is essential in T v T since the opponent tanks die in 2 hits from yours. Since it is difficult to overwhelm a Terran with quantity of your units, you have to use Dropships to weaken enemy lines in the match up.");
+        myBuildList.add(BarrackDoubleTvT);
+        myBuildList.add(FactoryDoubleTvT);
+        myBuildList.add(BBSTvT);
+        myBuildList.add(TvTNotes);
 
         //T v Z
         FastEB = new Builds((String) context.getText(R.string.FirstEngineeringBay_BuildName), (String) context.getText(R.string.FirstEngineeringBay_BuildRace),  (String) context.getText(R.string.FirstEngineeringBay_BuildOrder), (String) context.getText(R.string.FirstEngineeringBay_BuildNotes));
         TwoBarracksAcademy  = new Builds("Two Barracks Academy", "T v Z", "9 -> Supply Depot\n11 -> Barrakcs\n13 -> Barracks\n14 -> Supply Depot\n18 -> Gas, Stop SCV Production\n20 -> Academy\n100% Academy -> Stim Pack, 2 Medic, 2 Firebat, Rush\nEngineering Bay\nTerran Bionic Weapons Upgrade","If you want to only pressure the Zerg and go to late game, take an expansion while you rush out, get marine range and tech up. If you want to attempt to end the game, add an additional barracks while you rush and keep producing units.");
         OneOneOne = new Builds ("One One One Build", "T v Z", STANDARD_TERRAN_OPENING + "17 -> Factory\n20 -> Command Center\n21 -> Factory Addon\n22 -> Starport, Supply Depot\n100% Addon -> Vulture, Mines\n%100 Starport -> Wraith, Starport Addon","The advantage of this build is that you can plant mines on all the expansions that the Zerg may go for very early. Because of the early Starport, you can also block Overlords from scouting your base while being able to scout the Zerg yourself. Also it is easy to fight off Mutalisks since you get your Science Vessels earlier than usual.");
         FiveBarrack = new Builds("5 Barracks Late Mechanic", "T v Z", "9 -> Supply Depot\n11 -> Barracks\n12 -> Scout\n18 -> Command Center\n21 -> Gas\nEngineering Bay, Supply Depot\nAcademy\n100% Academy -> Scan, Stimpack\nBarracks x 4 Marine and Medic production\nTurret to defend Mutalisks\nFactory after Mutas are cleared\nExpand while teching up", "Important to scout early to defend against speed up ling all in. Use mines to get vision and limit enemy movement. Attempt to delay Zerg's 3rd gas as much as possible.");
+        TwoStarWraith = new Builds("Two Starport Wraith","T v Z","8 -> Supply Depot\n11 => Barracks\n12 -> Gas\n14 -> Supply Depot\n16 -> Factory\n100% Factory -> Vulture\nStarport\n50% Starport -> 2nd Starport\n100% 1st Starport -> Addon, Cloaking\n100% 2nd Starport -> Wraith","A build made famous by Leta. If the Zerg is unable to scout this, you will probably be able to do a lot of damage by hunting Overlords and Drones. Since there are a lot of varying situations while using this build, it is advised to watch old matches played by professionals to learn how to execute this build properly.");
         myBuildList.add(FastEB);
         myBuildList.add(TwoBarracksAcademy);
         myBuildList.add(OneOneOne);
         myBuildList.add(FiveBarrack);
+        myBuildList.add(TwoStarWraith);
+
         //Z v P
-        Overpool = new Builds((String) context.getText(R.string.Overpool_BuildName), (String) context.getText(R.string.Overpool_BuildRace),  (String) context.getText(R.string.Overpool_BuildOrder), (String) context.getText(R.string.Overpool_BuildNotes));
+
+        Overpool = new Builds((String) context.getText(R.string.Overpool_BuildName), (String) context.getText(R.string.Overpool_BuildRace),  (String) context.getText(R.string.Overpool_BuildOrder), "Standard opener against Toss. Can stop most early game all ins while having medium macro to prepare you for mid to late game.");
+        TwelveHatchery = new Builds("12 Drone Expansion","Z v P", "9 -> Overlord\nDrone until 12\nHatchery at Expo\nSpawning Pool","The scout timing for a typical Protoss is after building his first Pylon. If he succeeds to find you in the first search, do not use this build since you will most likely get Cannon rushed or he will also go for a 12 Nexus which puts you at a disadvantage.");
+        NineDroneSpeedvP = new Builds("9 Drone Speed Ling (Z v P)", "Z v P", "9 -> Spawning Pool\nDrone\nGas\nOverlord\nDrone\nZerglings x 6\nLing Speed Upgrade\nKeep producing lings while rushing","This is a semi all in build in this match up. If the enemy doesn't have his entrance blocked off properly, go straight into his main and start harassing. If things are going well, keep producing lings to end the game." );
+        NineSevenThree = new Builds("973 Build", "Z v P", "9 -> Overlord, Spawning Pool\nDrone until 11\nHatchery at Expo\nZergling x 4\n14 -> Hatchery at Expo, Gas\n50 Gas -> Hydralisk Den\n9 Drones at Main, 7 Drones at 2nd Expo\n3 Drones at 3rd Expo\nHydralisks\nHydra Range Upgrade","This build allows you to be aggressive with the Hydras early game while also expanding your Hatchery count. When you have resources left over during the Hydra rush, build more Hatcheries and go for a Lair. If the opponent has less than 4 Cannons, you should be able to rush in with your Hydras and win the game.");
+        TwoHatcheryHydra = new Builds("3 Hatchery Hydra", "Z v P", "9 -> Overlord\n12 -> Hatchery\n11 -> Spawning Pool\n10 -> Gas\n9 -> Drone x 3\n12 -> Zergling x 6\n50 Gas -> Hydralisk Den\n15 -> Overlord\n100% Hydralisk Den -> Hydra Range Upgrade", "Very strong all in build against Toss. Zealots are really weak until speed upgrade against Hydras with proper micro and if the opponent is not expecting this rush, most likely he will be caught off guard.");
+
+
         myBuildList.add(Overpool);
+        myBuildList.add(TwelveHatchery);
+        myBuildList.add(NineDroneSpeedvP);
+        myBuildList.add(NineSevenThree);
+        myBuildList.add(TwoHatcheryHydra);
+
+
+
         //Z v T
+
+
+        NineDronevT = new Builds("9 Drone (Z v T)", "Z v T","9 -> Spawning Pool\nDrone\nOverlord\nZergling x 6\nHatchery","Kills opponent's early game all ins such as BBS and can kill greedy builds such as no Barracks double Command Center. An aggressive build relying on good ling micro in general.");
+        NineDroneSpeed = new Builds("9 Drone Speed Ling", "Z v T", "9 -> Spawning Pool\nDrone\nGas\nOverlord\nDrone\nZerglings x 6\nLing Speed Upgrade\nKeep producing lings while rushing","Another killer to opponent all ins, but may put you in a very bad spot if you fail to end the game early" );
+        OverpoolvT = new Builds("Overpool (Z v T)", "Z v T", "9 -> Overlord\nSpawning Pool\n12 -> Hatchery\nZerglings x 6", "Most commonly used build that is stable and can stop opponent all ins with proper micro. You must do damage to the opponent if he is being greedy early on, or you maybe at a disadvantage.");
+        TwelveHatchvT = new Builds("12 Drone Expansion (Z v T)", "Z v T", "9 -> Overlord\nDrone until 12\nHatchery at Expo\nSpawning Pool","Loses to BBS due to lack of early game units. This build is a bit on the greedier side and thus when successful, you will find yourself in a good position for mid-late game");
+        NoSpawning3Hatch = new Builds("No Spawning 3 Hatch", "Z v T", "9 -> Overlord\nDrone until 12\nHatchery at Expo\nDrone until 14\nHatchery at Main\nSpawning Pool\nGas","Greediest of greedy. If your opponent does not do any early game damage to you, you will be able to out macro them due to the amount of Larvas.");
+        TwoHatchMuta = new Builds("Two Hatch Mutalisk", "Z v T", "Pick Overpool or 12 Drone Expansion\nLair when enough gas\n100% Lair -> Spire\nSave resources (600/600)\n100% Spire -> Muta x 6","2 Hatch builds are generally half all ins. You must do some form of damage to the opponent with the early Mutas or end the game. If you are forced into mid/late game, take an expansion and play defensively.");
+        TwoHatchLurker = new Builds("Two Hatch Lurker", "Z v T", "Pick Overpool or 12 Drone Expansion\nLair when enough gas\n60% Lair -> Hydralisk Den\n100% Lair -> Lurker Upgrade, Spire (Fake)\n100% Spire -> Hydralisk x 6\nHydralisk -> Lurker\nBurrow at opponent natural","Even bigger all in than 2 Hatch Mutas. If your opponent knows about your Lurkers, you will most likely lose the game, thus it is very important to fake out your opponent and hide you Hydras.");
+        ThreeHatch = new Builds("Three Hatch Mutalisk ", "Z v T","Pick Overpool or 12 Drone Expansion\nDrone Until 14\nHatchery at Main\nLair\nGas at Expo\n100% Lair -> Spire\nSave Resources (900/900)\n100% Spire -> Mutalisk x 9","Standard Muta build for the match up. Muta micro is very important as you have to use them to prevent Terran from rushing you by clipping off Marines. If you are overwhelmed by the number of Terran units, build Sunkens and play defensively while getting your Hive tech");
+
+        myBuildList.add(NineDronevT);
+        myBuildList.add(NineDroneSpeed);
+        myBuildList.add(OverpoolvT);
+        myBuildList.add(TwelveHatchvT);
+        myBuildList.add(NoSpawning3Hatch);
+        myBuildList.add(TwoHatchMuta);
+        myBuildList.add(TwoHatchLurker);
+        myBuildList.add(ThreeHatch);
+
         //Z v Z
 
+        NineDrone = new Builds("9 Drone", "Z v Z", "9 -> Spawning Pool\nDrone\nGas\nOverlord\nDrone\nZergling x 6\nLing Speed Upgrade", "Wins Against:\n12 Drone Hatchery\nMain Base Twin Hatchery\n\nLoses Against:\nOverpool\n12 Pool\nFast Gas");
+        OverpoolvZ = new Builds("Overpool (Z v Z)", "Z v Z", "9 -> Overlord\nSpawning Pool\nDrone until 12\nGas\nZerglings x 6\nLair\nHatchery","Wins Against:\n9 Drone\n\nLoses Against:\nFast Gas\n12 Pool\nFast Gas\nTwin Hatchery");
+        FastGas = new Builds("Fast Gas","Z v Z","9 -> Overlord\nGas\nSpawning Pool\nDrone\nZerglings x 6\nLair\nHatchery","Wins Against:\n9 Drone\nOverpool\n\nLoses Against:\n12 Pool\nTwin Hatchery");
+        TwelvePool = new Builds ("Twelve Pool", "Z v Z","9 -> Overlord\nDrone until 12\nSpawning Pool\nGas\nHatchery\nZerglings x 6\nLair","Wins Against:\n9 Drone\nFast Gas\nOverpool\n\nLoses Against:\n12 Drone Expansion");
+        TwelveHatcheryvZ = new Builds ("12 Drone Expansion (Z v Z)", "Z v Z", "9 -> Overlord\nDrone until 12\nHatchery at main\nSpawning Pool\nDrone\nGas\nZergling x 6\nZergling Speed Upgrade","Wins Against:\nFast Gas\nMain Base Twin Hatchery\n12 Pool\n\nLoses Against:\n9 Drone");
+        ZvZTips = new Builds("Z v Z Tips", "Z v Z", "Z v Z is a very fast paced match up utilizing Mutalisks and Scourges. After getting your Lair, build your Spire as soon as you get enough resources. Practice Muta and Scourge micro in some use maps for increased win rate!","N/A");
 
-
+        myBuildList.add(NineDrone);
+        myBuildList.add(OverpoolvZ);
+        myBuildList.add(FastGas);
+        myBuildList.add(TwelvePool);
+        myBuildList.add(TwelveHatcheryvZ);
+        myBuildList.add(ZvZTips);
 
 
         return myBuildList;

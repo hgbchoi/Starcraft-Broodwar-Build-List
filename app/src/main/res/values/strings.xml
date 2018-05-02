@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Starcraft: BroodWar Build List</string>
+    <string name="app_name">SC Builds Remastered</string>
     <string name="race_protess">Protoss</string>
     <string name="race_terran">Terran</string>
     <string name="race_zerg">Zerg</string>
